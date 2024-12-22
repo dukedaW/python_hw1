@@ -79,7 +79,7 @@ def plot_ts(df_processed: pd.DataFrame):
 
 
 
-# API_KEY = '8422760300a82b441e7e77f164d82625'
+
 def main():
     allowed_extensions = ['.csv', '.xlsx']
     data_file = st.file_uploader('Загрузите файл с историческими данными о погоде',
